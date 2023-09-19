@@ -1,0 +1,13 @@
+*{
+    background-color: #dadada;
+}
+
+.img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 50%;
+}
