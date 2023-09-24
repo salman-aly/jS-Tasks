@@ -25,8 +25,8 @@ function abc(event) {
     character.src = "images/zankuro-badassstrike.gif";
     setTimeout(function () {
       character.src = "images/zankuro-red.gif";
-      character.style.width = "350px";
-      character.style.height = "350px";
+      character.style.width = "300px";
+      character.style.height = "300px";
     }, 2000);
   }
   if (event.keyCode === 87) {
