@@ -1,5 +1,7 @@
 var forward = 0;
 
+var backward = 0;
+
 function abc(event) {
   var character = document.getElementById("animate");
   console.log(event.keyCode);
@@ -45,3 +47,39 @@ function abc(event) {
 }
 
 window.onkeyup = abc;
+
+
+
+// for second character
+
+// function ab(event) {
+//   var chara = document.getElementById("ani");
+//   console.log(event.keyCode);
+//   console.log(backward);
+//   if (event.keyCode === 74 && backward < 1200) {
+//     backward = backward + 20;
+//     chara.style.right = backward + "px";
+//     chara.src = "images/fight.gif";
+//     setTimeout(function () {
+//       chara.src = "images/chengstance.gif";
+//       chara.style.width = "260px";
+//       chara.style.height = "260px";
+//     }, 10000);
+//   }
+
+//   if (event.keyCode === 76 && backward > 30) {
+//     backward = backward - 20;
+//     chara.style.right = backward + "px";
+//     chara.style.width = "260px";
+//     chara.style.height = "260px";
+//     chara.src = "images/chengstance.gif";
+//     setTimeout(function () {
+//       chara.src = "images/chengstance.gif";
+//       chara.style.width = "260px";
+//       chara.style.height = "260px";
+//     }, 5000);
+//   }
+// }
+
+
+// window.onkeyup = ab;

@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .main {
     height: 100vh;
     width: 100%;
@@ -18,7 +23,27 @@
 
 }
 
-.text{
+.text {
     color: #FFF;
     font-size: 25px;
+    margin-left: 20px;
+}
+
+
+.chartwo {
+    width: 250px;
+    height: 300px;
+    object-fit: contain;
+    position: absolute;
+    bottom: 10px;
+    margin-left: 75%;
+}
+
+
+.text-right{
+    text-align: right;
+    color: #FFF;
+    font-size: 25px;
+    margin-top: -100px;
+    margin-right: 20px;
 }
