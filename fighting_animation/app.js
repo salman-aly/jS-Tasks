@@ -25,8 +25,8 @@ function abc(event) {
     character.src = "images/zankuro-badassstrike.gif";
     setTimeout(function () {
       character.src = "images/zankuro-red.gif";
-      character.style.width = "300px";
-      character.style.height = "300px";
+      character.style.width = "350px";
+      character.style.height = "350px";
     }, 2000);
   }
   if (event.keyCode === 87) {
@@ -45,41 +45,37 @@ function abc(event) {
     character.style.height = "300px";
   }
 }
-
-window.onkeyup = abc;
-
-
+window.addEventListener("keydown", abc);
 
 // for second character
 
-// function ab(event) {
-//   var chara = document.getElementById("ani");
-//   console.log(event.keyCode);
-//   console.log(backward);
-//   if (event.keyCode === 74 && backward < 1200) {
-//     backward = backward + 20;
-//     chara.style.right = backward + "px";
-//     chara.src = "images/fight.gif";
-//     setTimeout(function () {
-//       chara.src = "images/chengstance.gif";
-//       chara.style.width = "260px";
-//       chara.style.height = "260px";
-//     }, 10000);
-//   }
+function ab(event) {
+  var chara = document.getElementById("ani");
+  console.log(event.keyCode);
+  console.log(backward);
+  if (event.keyCode === 74 && backward < 1200) {
+    backward = backward + 20;
+    chara.style.right = backward + "px";
+    chara.src = "images/fight.gif";
+    setTimeout(function () {
+      chara.src = "images/chengstance.gif";
+      chara.style.width = "260px";
+      chara.style.height = "260px";
+    }, 10000);
+  }
 
-//   if (event.keyCode === 76 && backward > 30) {
-//     backward = backward - 20;
-//     chara.style.right = backward + "px";
-//     chara.style.width = "260px";
-//     chara.style.height = "260px";
-//     chara.src = "images/chengstance.gif";
-//     setTimeout(function () {
-//       chara.src = "images/chengstance.gif";
-//       chara.style.width = "260px";
-//       chara.style.height = "260px";
-//     }, 5000);
-//   }
-// }
+  if (event.keyCode === 76 && backward > 30) {
+    backward = backward - 20;
+    chara.style.right = backward + "px";
+    chara.style.width = "260px";
+    chara.style.height = "260px";
+    chara.src = "images/chengstance.gif";
+    setTimeout(function () {
+      chara.src = "images/chengstance.gif";
+      chara.style.width = "260px";
+      chara.style.height = "260px";
+    }, 5000);
+  }
+}
 
-
-// window.onkeyup = ab;
+window.addEventListener("keydown", ab);
