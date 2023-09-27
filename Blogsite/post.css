@@ -1,0 +1,74 @@
+body {
+    background-color: #ECEEF6;
+}
+
+.main-container .screen {
+    width: 80% !important;
+    height: 230px;
+    outline: none;
+    margin-bottom: 80px;
+    border-radius: 20px;
+    background-color: #fff;
+    text-align: left;
+    padding: 20px;
+}
+
+.second-container>input {
+    width: 850px !important;
+    height: 200px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100% !important;
+    padding-top: 80px;
+}
+
+.main-container button {
+    width: 200px;
+    border-radius: 20px;
+    border: none;
+    background-color: #1A87EC;
+    padding: 10px;
+    color: #fff;
+}
+.main-container button:hover {
+    width: 200px;
+    border-radius: 20px;
+    border: none;
+    background-color: #fff;
+    padding: 10px;
+    color: #000000;
+    transition: 0.3s ease-out;
+    transform: translateY(2px);
+}
+
+input #screen {
+    height: 250px !important;
+}
+
+.top {
+    background-image: url(images/team-hdr-img.jpg);
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    opacity: 0.9;
+
+}
+
+
+.top{
+    text-align: center;
+    font-size: 45px;
+    color: black !important;
+    display: flex;
+    justify-content: center;
+}
