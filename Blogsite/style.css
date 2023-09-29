@@ -46,18 +46,21 @@ input ::-moz-focus-inner {
     color: black;
 }
 
-.main>button {
+.main a {
     width: 125px;
     border-radius: 20px;
     background-color: #1A87EC;
-    height: 40px;
+    height: 50px;
     border: none;
     margin-top: 10px;
     margin-bottom: 10px;
     color: #fff;
+    text-align: center;
+    text-decoration: none;
+   line-height: 1.8;
 }
 
-button:hover {
+a:hover {
     background-color: #ffffff;
     transition: 0.3s ease-out;
     transform: translateY(2px);
