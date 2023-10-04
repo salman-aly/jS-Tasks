@@ -1,0 +1,31 @@
+body {
+    background-image: url(images/blue-1273089_1280.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    color: #000;
+    font-size: 22px;
+}
+
+.main input{
+    width: 800px;
+}
+
+button {
+    border-radius: 5px;
+    font-size: 18px;
+    border: none;
+    padding: 5px 10px;
+}
+button:hover{
+    color: #000;
+    background-color: aquamarine;
+}
